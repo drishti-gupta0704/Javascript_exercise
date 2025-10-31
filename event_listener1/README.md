@@ -3,7 +3,7 @@
 
 ### 📌 Features
 - Simple dropdown menu to choose a device
-- Displays the selected value with the message "device chosen"
+- Displays the selected value with the message "device is selected"
 
 ### 🛠️ Tech Stack
 **HTML** 
@@ -13,5 +13,5 @@
 **JavaScript**
 
 ## 🔗 Live Demo of Project
-[View Project]() 🚀
+[View Project](https://lustrous-cascaron-631170.netlify.app/) 🚀
 
