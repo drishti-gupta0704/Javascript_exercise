@@ -7,7 +7,9 @@
 
 ### 🛠️ Tech Stack
 **HTML** 
+
 **CSS**
+
 **JavaScript**
 
 ## 🔗 Live Demo of Project
