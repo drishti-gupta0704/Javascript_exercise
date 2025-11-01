@@ -17,5 +17,5 @@ This project demonstrates the use of JavaScript DOM manipulation to dynamically 
 **JavaScript**
 
 # 🔗 Live Demo of Project
-[View Project]() 🚀
+[View Project](https://willowy-salmiakki-0c83bf.netlify.app/) 🚀
 
