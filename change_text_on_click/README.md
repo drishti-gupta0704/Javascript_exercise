@@ -1,8 +1,8 @@
 
 ## text changer on clicking button by using DOM 
 
-# 🔗  click to view live project
-[click here](https://flourishing-sable-4e8daf.netlify.app/)
+
+[🔗click here to view live project](https://flourishing-sable-4e8daf.netlify.app/)
 
 ### 📌 features
 - the text of heading changes itself upon clicking button
@@ -11,6 +11,8 @@
 
 ### tech stack
  **HTML**
+
  **CSS**
+
  **JavaScript**
 
