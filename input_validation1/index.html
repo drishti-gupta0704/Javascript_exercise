@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Constraint Validation Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form>
+    <h2>Sign Up Form</h2>
+
+    <!-- required attribute -->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+    <!-- type & pattern attributes -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="example@email.com">
+
+    <!-- min & max attributes -->
+    <label for="age">Age (18–60):</label>
+    <input type="number" id="age" name="age" min="18" max="60" required>
+
+    <!-- pattern attribute -->
+    <label for="password">Password (min 6 chars, one number):</label>
+    <input type="password" id="password" name="password"
+           pattern="^(?=.*\d).{6,}$"
+           title="Must contain at least 6 characters and one number"
+             required>
+
+    <!-- disabled attribute -->
+    <label for="referral">Referral Code (optional):</label>
+    <input type="text" id="referral" name="referral" value="DRISHTI123" disabled>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
