@@ -6,7 +6,7 @@ It allows users to increase, decrease, or reset a counter value with just one cl
 - it increases,decreases,reset the counter value
 - it changes color based on the value
 
-#### tech stack
+# tech stack
 **HTML**
 
 **CSS**
