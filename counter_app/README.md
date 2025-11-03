@@ -2,15 +2,15 @@
 ## counter app
 It allows users to increase, decrease, or reset a counter value with just one click.
 
-### features
+### 📌 features
 - it increases,decreases,reset the counter value
 - it changes color based on the value
 
-### tech stack
+#### tech stack
 **HTML**
 
 **CSS**
 
 **JavaScript**
 
-## [live demo](https://eclectic-khapse-310769.netlify.app/)
+## [live demo of project](https://eclectic-khapse-310769.netlify.app/) 🚀
