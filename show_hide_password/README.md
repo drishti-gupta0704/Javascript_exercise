@@ -9,9 +9,11 @@ It’s a common feature in login and signup forms that helps users check what th
 - Show or hide password using a checkbox
 - Uses DOM manipulation and event handling
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 HTML
+
 CSS
+
 JavaScript 
 
-# [click to view the live project]()
+# [click to view the live project](https://rococo-croquembouche-6bc4a3.netlify.app/)
