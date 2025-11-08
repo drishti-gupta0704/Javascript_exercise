@@ -24,7 +24,7 @@ body{
   padding: 2rem;
   border-radius: 1rem;
   min-height: 45vh;
-  width:35vh;
+  
 
 }
 
@@ -37,7 +37,7 @@ body{
   color: #333;
 }
 
-form button{
+/* form button{
   background-color: #899294;
   color: rgb(26, 129, 197);
   font-size: 1rem;
@@ -46,7 +46,25 @@ form button{
   margin-top: 1rem;
   cursor: pointer;
   
+} */
+
+form button {
+  background-color: rgb(26, 129, 197); /* Blue button */
+  color: white; /* White text */
+  font-size: 1rem;
+  padding: 10px;
+ 
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  width: 100%; /* Optional - makes it wide */
+
 }
+
+/* form button:hover {
+  background-color: rgb(16, 90, 150);
+} */
+
 
 form input{
   border: 1px solid lightgray;
@@ -60,5 +78,15 @@ form input{
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
+}
+
+.msg {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: rgb(134, 45, 45);
+  background-color: rgba(0,0,0,0.2);
+  padding: 8px;
+  border-radius: 6px;
 }
 
