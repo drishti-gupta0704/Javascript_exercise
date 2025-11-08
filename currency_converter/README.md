@@ -15,8 +15,13 @@ It fetches real-time exchange rates using the API
 
 ### | Technology           | Purpose               
 | -------------------- | ----------------------- |
+
 | **HTML**             | Structure of the app    |
+
 | **CSS**              | Styling and layout      |
+
 | **JavaScript**       | Logic and API handling  |
+
 | **Frankfurter API**  | Real-time currency data |
+
 | **FlagsAPI**         | Country flag images     |
