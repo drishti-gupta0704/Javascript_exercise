@@ -6,6 +6,8 @@ const dropdowns = document.querySelectorAll(".dropdown select ");
 const btn = document.querySelector("form button");
 const fromcurr= document.querySelector(".from select");
 const tocurr= document.querySelector(".to select");
+const msg = document.querySelector(".msg");
+
 
 
 // for(code in countryList){
@@ -60,7 +62,12 @@ if(amtval === "" || amtval <1){
 //API works in lower case only...so make it into lower case
 const URL = `https://api.frankfurter.app/latest?amount=${amtval}&from=${fromcurr.value.toLowerCase()}&to=${tocurr.value.toLowerCase()}` ;
 let response = await fetch(URL);
-console.log(response);
+// console.log(response);
+let data = await response.json();
+let rate = data.rates[tocurr.value];
+// let rate = data[tocurr.value.toLowerCase()];
+let finalAmount = amtval * rate ;
+msg.innerText = `${amtval}  ${fromcurr.value} = ${finalAmount} ${tocurr.value}`;
 
 
  }
